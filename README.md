@@ -22,12 +22,19 @@ MMKNet is a neural network-assisted Kalman filter designed for tracking highly m
 ## Code Structure
 
 ├── main_linear.py          # Main training and evaluation script
+
 ├── filter.py               # MMKNet filtering implementation
+
 ├── gen_dataset.py          # Artificial data generation (AAL)
+
 ├── state_dict_learner.py   # Neural network training utilities
+
 ├── Data/linear/            # Generated training/test datasets
+
 ├── Model/linear/           # Saved model checkpoints
+
 ├── Simulations/linear/     # Simulation outputs and logs
+
 └── README.md
 
 ## Citation
